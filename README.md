@@ -62,6 +62,7 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
+pkg install yarn
 git clone https://github.com/SonzaiEkkusu/Bot-X
 cd Bot-X
 yarn install
