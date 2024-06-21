@@ -426,7 +426,7 @@ async function replygcxeon2(txt) {
 const xeonnewrep = {      
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 forwardedNewsletterMessageInfo: {
 newsletterName: "Click here to get $69",
 newsletterJid: "120363222395675670@newsletter",
@@ -3446,7 +3446,7 @@ text: teks,
 mentions:[sender],
 contextInfo:{
 forwardingScore: 9999999,
-isForwarded: true, 
+isForwarded: false, 
 mentionedJid:[sender],
 "externalAdReply": {
 "showAdAttribution": true,
@@ -5463,7 +5463,7 @@ XeonBotInc.sendMessage(m.chat,
 contextInfo:{
 mentionedJid:[me, jodoh],
 forwardingScore: 9999999,
-isForwarded: true, 
+isForwarded: false, 
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
@@ -5487,7 +5487,7 @@ Cieeee, What's Going On❤️💖👀`,
 contextInfo:{
 mentionedJid:[orang, jodoh],
 forwardingScore: 9999999,
-isForwarded: true, 
+isForwarded: false, 
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
@@ -5676,7 +5676,7 @@ case 'pick': {
 text: `The most *${text}* here is *@${xeonshimts.split("@")[0]}*`,
 contextInfo:{
 forwardingScore: 9999999,
-isForwarded: true, 
+isForwarded: false, 
 mentionedJid:[xeonshimts],
 "externalAdReply": {
 "showAdAttribution": true,
@@ -9320,7 +9320,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -9408,7 +9408,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -9548,7 +9548,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -9681,7 +9681,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -9769,7 +9769,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -9817,7 +9817,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -9826,7 +9826,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -9959,7 +9959,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -10047,7 +10047,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -10095,7 +10095,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -10104,7 +10104,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -10237,7 +10237,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -10325,7 +10325,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -10373,7 +10373,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -10382,7 +10382,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -10515,7 +10515,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -10603,7 +10603,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -10651,7 +10651,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -10660,7 +10660,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -10793,7 +10793,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -10881,7 +10881,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -10929,7 +10929,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -10938,7 +10938,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -11071,7 +11071,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -11159,7 +11159,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -11207,7 +11207,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -11216,7 +11216,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -11349,7 +11349,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -11437,7 +11437,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -11485,7 +11485,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -11494,7 +11494,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -11627,7 +11627,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -11715,7 +11715,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -11763,7 +11763,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -11772,7 +11772,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -11905,7 +11905,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -11993,7 +11993,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -12041,7 +12041,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -12050,7 +12050,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -12183,7 +12183,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -12271,7 +12271,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -12319,7 +12319,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -12328,7 +12328,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -12461,7 +12461,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -12549,7 +12549,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -12597,7 +12597,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -12606,7 +12606,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -12739,7 +12739,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -12827,7 +12827,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -12875,7 +12875,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -12884,7 +12884,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -13017,7 +13017,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -13105,7 +13105,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -13153,7 +13153,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -13162,7 +13162,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -13295,7 +13295,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -13383,7 +13383,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -13431,7 +13431,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -13440,7 +13440,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -13573,7 +13573,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -13661,7 +13661,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -13709,7 +13709,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -13718,7 +13718,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -13851,7 +13851,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -13939,7 +13939,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -13987,7 +13987,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -13996,7 +13996,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -14129,7 +14129,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -14217,7 +14217,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -14265,7 +14265,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -14274,7 +14274,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -14407,7 +14407,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -14495,7 +14495,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -14543,7 +14543,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -14552,7 +14552,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -14685,7 +14685,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -14773,7 +14773,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -14821,7 +14821,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -14830,7 +14830,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -14963,7 +14963,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -15051,7 +15051,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -15099,7 +15099,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -15108,7 +15108,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -15241,7 +15241,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -15329,7 +15329,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -15377,7 +15377,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -15386,7 +15386,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -15519,7 +15519,7 @@ caption: xmenu_oh,
 gifPlayback: true,
 contextInfo: {
 forwardingScore: 999,
-isForwarded: true,
+isForwarded: false,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
 newsletterName: ownername,
@@ -15607,7 +15607,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -15655,7 +15655,7 @@ let msg = generateWAMessageFromContent(m.chat, {
 "rows":[{"header":"ALL MENU",
 "title":"This Menu",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"}]
+"id":"${prefix}menu"}]
 }]
 }`
               }
@@ -15664,7 +15664,7 @@ let msg = generateWAMessageFromContent(m.chat, {
           contextInfo: {
                   mentionedJid: [m.sender], 
                   forwardingScore: 999,
-                  isForwarded: true,
+                  isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363222395675670@newsletter',
                   newsletterName: ownername,
@@ -15718,7 +15718,7 @@ break
 case 'xreact': {
 if (!isPremium) return replygcxeon(mess.prem)
 if (!m.quoted) return replygcxeon(`Example usage: ${prefix + command} reply chat`)
-await XeonBotInc.sendMessage(m.chat, { text: 'Success In Sending Bug', contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363222395675670@newsletter', newsletterName: `${ownername}`.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
+await XeonBotInc.sendMessage(m.chat, { text: 'Success In Sending Bug', contextInfo:{ isForwarded: false, forwardedNewsletterMessageInfo: { newsletterJid: '120363222395675670@newsletter', newsletterName: `${ownername}`.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
 await sleep(2000)
 await XeonBotInc.sendMessage(m.chat, { react: { text: '🦄', key: { remoteJid: m.chat, fromMe: true, id: quoted.id } } })
 }
@@ -15728,7 +15728,7 @@ if (!isPremium) return replygcxeon(mess.prem)
 if (!args[0]) return replygcxeon(`Use ${prefix+command} amount\nExample ${prefix+command} 5`) 
 amount = text * 30
 for (let i = 0; i < amount; i++) {
-await XeonBotInc.sendMessage(m.chat, { text: ownername, contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363222395675670@newsletter', newsletterName: botname.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
+await XeonBotInc.sendMessage(m.chat, { text: ownername, contextInfo:{ isForwarded: false, forwardedNewsletterMessageInfo: { newsletterJid: '120363222395675670@newsletter', newsletterName: botname.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
 }
 }
 break
@@ -15739,7 +15739,7 @@ await loading()
 victim = text.split("|")[0]+"@s.whatsapp.net"
 amount = text.split("|")[1] * 30
 for (let i = 0; i < amount; i++) {
-await XeonBotInc.sendMessage(victim, { text: ownername, contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363222395675670@newsletter', newsletterName: botname.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
+await XeonBotInc.sendMessage(victim, { text: ownername, contextInfo:{ isForwarded: false, forwardedNewsletterMessageInfo: { newsletterJid: '120363222395675670@newsletter', newsletterName: botname.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
 }
 replygcxeon(`Successfully Sent Bug To ${victim}`)
 }
@@ -16952,7 +16952,7 @@ XeonBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true, {quoted: m})
 XeonBotInc.sendMessage("6285887535711@s.whatsapp.net", { text: "Hello developer, there seems to be an error, please fix it " + util.format(e), 
 contextInfo:{
 forwardingScore: 9999999, 
-isForwarded: true
+isForwarded: false
 }})
 if (e.includes("conflict")) return
 if (e.includes("Cannot derive from empty media key")) return
