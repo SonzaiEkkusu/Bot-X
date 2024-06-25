@@ -200,13 +200,8 @@ try{
 		if (update.connection == "open" || update.receivedPendingNotifications == "true") {
 			console.log(color(` `,'magenta'))
             console.log(color(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
-            console.log(chalk.yellow(`\n\n               ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
-            console.log(color(`< ================================================== >`, 'cyan'))
-	        console.log(color(`\n${themeemoji} YT CHANNEL: Nothing`,'magenta'))
-            console.log(color(`${themeemoji} GITHUB: SonzaiEkkusu `,'magenta'))
-            console.log(color(`${themeemoji} TELEGRAM: @November2k `,'magenta'))
-            console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
-            console.log(color(`${themeemoji} CREDIT: ${wm}\n`,'magenta'))
+            console.log(chalk.yellow(`\n           ${chalk.bold.blue(`[ ${botname} is Oline Now]`)}\n`))
+            console.log(color(`< ============================================ >`, 'cyan'))
 		}
 	
 } catch (err) {
