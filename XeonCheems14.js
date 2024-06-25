@@ -439,7 +439,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: botname,
 body: ownername,
-thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
 sourceUrl: websitex
 },
 },
@@ -3406,7 +3406,7 @@ case 'block': case 'ban': {
                                 showAdAttribution: true,
                                 title: botname,
                                 body: `Sent in ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -5993,7 +5993,7 @@ break
                             showAdAttribution: true,
                             title: botname,
                             body: ownername,
-                            thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                            thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
                             sourceUrl: wagc,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -6031,7 +6031,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -6047,7 +6047,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -6068,7 +6068,7 @@ break
                             showAdAttribution: true,
                             title: botname,
                             body: ownername,
-                            thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                            thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
                             sourceUrl: wagc,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -18949,7 +18949,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -18974,7 +18974,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19305,7 +19305,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -19331,7 +19331,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19662,7 +19662,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -19688,7 +19688,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -20019,7 +20019,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20045,7 +20045,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -20376,7 +20376,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20402,7 +20402,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -20733,7 +20733,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20759,7 +20759,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21090,7 +21090,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21116,7 +21116,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21447,7 +21447,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21473,7 +21473,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21804,7 +21804,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21830,7 +21830,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22086,7 +22086,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22112,7 +22112,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22443,7 +22443,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22469,7 +22469,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22800,7 +22800,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22826,7 +22826,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23157,7 +23157,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23183,7 +23183,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23514,7 +23514,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23540,7 +23540,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23871,7 +23871,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23897,7 +23897,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24228,7 +24228,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24254,7 +24254,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24585,7 +24585,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24611,7 +24611,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24942,7 +24942,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24968,7 +24968,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25299,7 +25299,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25325,7 +25325,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25656,7 +25656,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25682,7 +25682,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26013,7 +26013,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -26039,7 +26039,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26370,7 +26370,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co.com/G7kybLn/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -26396,7 +26396,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co.com/G7kybLn/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
