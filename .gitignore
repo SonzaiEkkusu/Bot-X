@@ -1,2 +1,4 @@
 node_modules
 session
+src/database.json
+src/data/role/user.json
