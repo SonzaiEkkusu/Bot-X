@@ -18771,66 +18771,75 @@ break;
             let latensie = speed() - timestampe
             let a = db.data.users[sender]
             let me = m.sender
-            let xmenu_oh2 = `┌─❖
-│ Hi 👋 
-└┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄${readmore} 
-│└────────────┈ ⳹
-│
-└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
-│𝗣??𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
-│𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
-│
-└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
-│𝗡𝗮𝗺𝗲 : ${pushname}
-│𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
-│𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
-│𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
-│𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
-│
-└┬───────────────── ⳹
-   │✑  Please Click On *MENU 🌺*
-   │✑  Given *BELOW*
-   └─────────────┈ ⳹`
-            let xmenu_oh = `┌─❖
-│ Hi 👋 
-└┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄${readmore} 
-│└────────────┈ ⳹
-│
-└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
-│𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀?? 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
-│𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
-│
-└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
-│𝗡𝗮𝗺𝗲 : ${pushname}
-│𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
-│𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
-│𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
-│𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
-│
-└┬───────────────── ⳹
-   │✑  Please type The *MENU*
-   │✑  Given *BELOW*
-┌└─────────────┈ ⳹
+            let xmenu_oh2 = `╭━━━☆━━━━☆━━━╮
+┃   🌟  BOT INFO  🌟   ┃
+╰━━━☆━━━━☆━━━╯
+
+┌─❖
+│  Hello, ${pushname}! 👋
+└┬❖  
+  │  ${xeonytimewisher} 😄
+  │
+  │  ➤ Speed: ${latensie.toFixed(4)} ms
+  │  ➤ Runtime: ${runtime(process.uptime())}
+  │  ➤ Bot: ${botname}
+  │  ➤ Owner: +${ownernumber}
+  │  ➤ Prefix: [ ${xprefix} ]
+  │  ➤ Mode: ${XeonBotInc.public ? 'Public' : 'Self'}
+  │  ➤ Host: ${os.hostname()}
+  │  ➤ Platform: ${os.platform()}
+  │  ➤ Total Users: ${Object.keys(global.db.data.users).length}
+  │  ➤ Total Hits: ${global.db.data.settings[botNumber].totalhit}
+  │  ➤ Total Chats: ${Object.keys(global.db.data.chats).length}
+  │
+╭━━━☆━━━━☆━━━╮
+┃  🌟  USER INFO  🌟  ┃
+╰━━━☆━━━━☆━━━╯
+
+┌─❖
+│  ➤ Name: ${pushname}
+│  ➤ Number: +${me.split('@')[0]}
+│  ➤ Limit: ${a.limit}
+│  ➤ Title: ${a.title ? a.title : '-'}
+│  ➤ Serial: ${a.serialNumber}
+└─❖
+
+📜 Please Click On *MENU* Below`
+            let xmenu_oh = `╭━━━☆━━━━☆━━━╮
+┃   🌟  BOT INFO  🌟   ┃
+╰━━━☆━━━━☆━━━╯
+
+┌─❖
+│  Hello, ${pushname}! 👋
+└┬❖  
+  │  ${xeonytimewisher} 😄
+  │
+  │  ➤ Speed: ${latensie.toFixed(4)} ms
+  │  ➤ Runtime: ${runtime(process.uptime())}
+  │  ➤ Bot: ${botname}
+  │  ➤ Owner: +${ownernumber}
+  │  ➤ Prefix: [ ${xprefix} ]
+  │  ➤ Mode: ${XeonBotInc.public ? 'Public' : 'Self'}
+  │  ➤ Host: ${os.hostname()}
+  │  ➤ Platform: ${os.platform()}
+  │  ➤ Total Users: ${Object.keys(global.db.data.users).length}
+  │  ➤ Total Hits: ${global.db.data.settings[botNumber].totalhit}
+  │  ➤ Total Chats: ${Object.keys(global.db.data.chats).length}
+  │
+╭━━━☆━━━━☆━━━╮
+┃  🌟  USER INFO  🌟  ┃
+╰━━━☆━━━━☆━━━╯
+
+┌─❖
+│  ➤ Name: ${pushname}
+│  ➤ Number: +${me.split('@')[0]}
+│  ➤ Limit: ${a.limit}
+│  ➤ Title: ${a.title ? a.title : '-'}
+│  ➤ Serial: ${a.serialNumber}
+└─❖
+
+📜 Please Click On *MENU* Below
+┌─────────────┈ ⳹
 │❏${prefix}allmenu
 │❏${prefix}searchmenu
 │❏${prefix}downloadmenu
@@ -19280,7 +19289,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
             case 'allmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${allmenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${allmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -19630,7 +19639,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
             case 'ownermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${ownermenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${ownermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -19980,7 +19989,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'othermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${othermenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${othermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -20330,7 +20339,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'downloadmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${downloadmenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${downloadmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -20680,7 +20689,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'groupmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${groupmenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${groupmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -21030,7 +21039,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'gamemenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${gamemenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${gamemenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -21380,7 +21389,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'funmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${funmenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${funmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -21730,7 +21739,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'stalkermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${stalkermenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${stalkermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -22080,7 +22089,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'randomphotomenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${randphotomenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${randphotomenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -22430,7 +22439,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'randomvideomenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${randvideomenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${randvideomenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -22780,7 +22789,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'nsfwmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${nsfwmenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${nsfwmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -23130,7 +23139,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'animemenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${animemenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${animemenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -23480,7 +23489,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'stickermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${stickermenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${stickermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -23830,7 +23839,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'databasemenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${databasemenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${databasemenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -24180,7 +24189,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'searchmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${searchmenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${searchmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -24530,7 +24539,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'storemenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${storemenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${storemenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -24880,7 +24889,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'aimenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${aimenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${aimenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -25230,7 +25239,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'religionmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${religionmenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${religionmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -25580,7 +25589,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'listmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${listmenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${listmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -25930,7 +25939,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'convertmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${convertmenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${convertmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -26280,7 +26289,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 break
 case 'bugmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${bugmenu(prefix, hituet)}`
+let xmenu_oh = `Hi ${pushname}\n\n${bugmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
