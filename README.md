@@ -83,3 +83,9 @@ npm start
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
+
+## `Changelogs`
+```bash
+- connect via qr code: npm start
+- connect via pair code: node index --pairing-code
+```
