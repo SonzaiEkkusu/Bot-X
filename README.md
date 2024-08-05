@@ -7,6 +7,8 @@
 
 <p align="center">
 This bot base from <a href="https://github.com/SonzaiEkkusu" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>.
+
+<p align="center">NOTE: this is for personal use only. download official one from telegram @xeonbotinc</a>.
 </p>
 
 ------
