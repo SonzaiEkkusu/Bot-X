@@ -12,24 +12,24 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //owmner v card
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.ytname = "YT: -" //ur yt chanel name
+global.socialm = "GitHub: SonzaiEkkusu" //ur github or insta name
+global.location = "Indonesia, Bogor, Jawa Barat" //ur location
 
 //new
-global.botname = 'Cheems Bot MD V15' //ur bot name
-global.ownernumber = ['916909137213'] //ur owner number, dont add more than one
-global.ownername = '🦄드림 가이 Xeon' //ur owner name
-global.websitex = "https://youtu.be/tLq8_qOOGFI"
-global.wagc = "https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20"
+global.botname = '𝓢𝓸𝓷𝔃𝓪𝓲 𝓧 𝓑𝓸𝓽' //ur bot name
+global.ownernumber = ['6287777334688'] //ur owner number, dont add more than one
+global.ownername = '𝓢𝓸𝓷𝔃𝓪𝓲 𝓧' //ur owner name
+global.websitex = "https://t.me/November2k"
+global.wagc = "https://t.me/November2k"
 global.themeemoji = '🪀'
-global.wm = "Xeon Bot Inc."
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD15' //script link
+global.wm = "𝓢𝓸𝓷𝔃𝓪𝓲 𝓧"
+global.botscript = 'https://t.me/November2k' //script link
 global.packname = "Sticker By"
-global.author = "🦄드림 가이 Xeon\n\n+916909137213"
-global.creator = "916909137213@s.whatsapp.net"
+global.author = "𝓢𝓸𝓷𝔃𝓪𝓲 𝓧 𝓑𝓸𝓽\n\n+6287777334688"
+global.creator = "6287777334688@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["916909137213"] // Premium User
+global.premium = ["6287777334688"] // Premium User
 
 //bot sett
 global.typemenu = 'v12' // menu type 'v1' => 'v12'
